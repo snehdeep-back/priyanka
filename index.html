@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <script src="ajax.js"></script>
+</head>
+<html>
+    <body onload="newMessage()">
+        <!-- Example 1-->
+        <button type="button" onclick="document.getElementById('date').innerHTML = Date()">Date</button>
+        <p id="date"></p>
+        <!--Example 2-->
+        <button type="button" onclick='document.getElementById("textChange").innerHTML = "This is a new text"''>Text Button</button>
+        <p id="textChange"></p>
+        <!--Example 3-->
+        <button type="button" onclick="document.getElementById('fontChange').style.fontSize = '35px'">Font Size Change</button>
+        <p id="fontChange">Change Font Text</p>
+        <!--Example 3-->
+        <button type="button" onclick="document.getElementById('hidethis').style.display = 'none'">Hide now</button>
+        <button type="button" onclick="document.getElementById('hidethis').style.display = 'block'">Show now</button>
+        <p id="hidethis">This will hide</p>
+        <p id="welcomeMessage"></p>
+    </body>
+</html>
