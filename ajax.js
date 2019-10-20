@@ -6,11 +6,11 @@ function newMessage() {
                 document.getElementById("welcomeMessage").innerHTML = ajaxRequest.responseText;
             }
             else{
-                console.log("Status is not ok")
+                console.log("The Status is not okay")
             }
         }
         else {
-            console.log("Not done")
+            console.log("It's not done")
         }
     }
     ajaxRequest.open("GET", "file:///C:/Users/priyanka.a.rathi/Desktop/Setup's/Priyanka/code/getText.txt", true);
